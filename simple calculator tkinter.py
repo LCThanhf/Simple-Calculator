@@ -63,7 +63,7 @@ for text, command, x, y, width, height, fg_color, hover_color in button_data:
     btn = customtkinter.CTkButton(app, command=command, text=text, font=font1, width=width, height=height, fg_color=fg_color, hover_color=hover_color)
     btn.place(x=x, y=y)
 
-# Thiết lập văn bản mặc định
+
 result_entry.insert(0, " ")
 
 app.mainloop()
